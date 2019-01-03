@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "GraphQL server experiment",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraceLarson/GraphServerFun.git"
+  },
+  "author": "Trace Larson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TraceLarson/GraphServerFun/issues"
+  },
+  "homepage": "https://github.com/TraceLarson/GraphServerFun#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
